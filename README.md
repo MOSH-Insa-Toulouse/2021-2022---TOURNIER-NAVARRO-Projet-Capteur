@@ -9,14 +9,15 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 ## Sommaire
 
-* [1. Introduction](#1.-introduction)
-* [2. Circuit électronique](#2circuit-électronique)
-* [3. PCB SHIELD](#3pcbshield)
-* [4. Code Arduino](#4code-arduino)
-* [5. Application Bluetooth](#5application-bluetooth)
-* [6. Banc de test](#6banc-de-test)
-* [7. Datasheet](#7datasheet)
-* [8. Conclusion](#8conclusion)
+* [1. Introduction](#1-introduction)
+* [2. Circuit électronique](#2-circuit-électronique)
+* [3. KiCad](#3-kicad)
+  * [3.1. Schématique](#3.1-schématique)  
+* [4. Code Arduino](#4-code-arduino)
+* [5. Application Bluetooth](#5-application-bluetooth)
+* [6. Banc de test](#6-banc-de-test)
+* [7. Datasheet](#7-datasheet)
+* [8. Conclusion](#8-conclusion)
 
 ## 1. Introduction
 
@@ -37,12 +38,12 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 ## 2. Circuit électronique
 
 
-## 3. PCB
+## 3. Kicad
 
 Nous avons utilisé le logiciel KiCad qui permet de réaliser des schémas électroniques et des circuits imprimés. Nous avons réalisé un SHIELD où l'ensemble des composants sera déposé dessus. Il sera ensuite pluggé directement sur l'arduino. 
 La réalisation d'un PCB se divise en 3 étapes : Le schématique, l'édition du PCB et sa visualisation 3D
 
-3.1) Schématique
+### 3.1. Schématique
 
 La base du circuit électronique repose sur la création du schématique. Les symboles et empreintes du module arduino UNO, des résistances et des capacités sont disponibles dans les librairies installées sur KiCad. Cependant, il nous a fallu créer une librairie d'empreinte pour l'ensemble des autres composants. Les empreintes devaient respecter les pins physiques pour que le routage se passe correctement par la suite.
 
@@ -88,3 +89,12 @@ Les empreintes 3D pour les résistances et capacité sont disponible sur KiCaD. 
 
 ![Visu 3D](https://user-images.githubusercontent.com/73793387/162773301-bb5bc7aa-99f0-43fd-9bd5-5bf0034fdfc4.PNG)
 
+## 4. Code Arduino
+
+## 5. Application Bluetooth
+
+## 6. Banc de test
+
+## 7. Datasheet
+
+## 8. Conclusion
