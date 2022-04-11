@@ -37,4 +37,6 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 # 2) Circuit électronique
 
 
+# 3) PCB
+
 
