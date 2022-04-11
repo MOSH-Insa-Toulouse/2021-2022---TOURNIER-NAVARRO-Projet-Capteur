@@ -73,5 +73,11 @@ La base du circuit électronique repose sur la création du schématique. Les sy
 
 ![Schématique](https://user-images.githubusercontent.com/73793387/162724536-20c92845-da14-4c31-a23f-b9c888aab8ba.PNG)
 
-3.2) PCB
+3.2) Edition du PCB
+
+Après avoir associé chaque empreinte à son symbole pour tous les composants, nous avons édité le circuit imprimé. La partie la plus complexe consiste à répartir les composants sur le PCB et router correctement les connexions entre chaque pin.
+
+
+![PCB](https://user-images.githubusercontent.com/73793387/162770627-a9380fcd-636d-430d-b1c6-7890eb1e7de1.PNG)
+
 
