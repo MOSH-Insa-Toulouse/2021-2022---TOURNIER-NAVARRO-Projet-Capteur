@@ -9,8 +9,8 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 # Sommaire
 
-1) Introduction 
-2) Circuit électronique
+- [1. Introduction] 
+- [2. Circuit électronique]
 3) PCB SHIELD
 4) Code Arduino
 5) Application Bluetooth
