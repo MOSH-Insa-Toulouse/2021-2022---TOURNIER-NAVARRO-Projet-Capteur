@@ -9,14 +9,14 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 ## Sommaire
 
-* [1. Introduction] (#1Introduction)
-* [2. Circuit électronique] (#2Circuit-électronique)
-* [3. PCB SHIELD] (#3PCB-SHIELD)
-* [4. Code Arduino] (#4Code-Arduino)
-* [5. Application Bluetooth] (#5Application-Bluetooth)
-* [6. Banc de test] (#6Banc-de-test)
-* [7. Datasheet] (#7Datasheet)
-* [8. Conclusion] (#8Conclusion)
+* [1. Introduction](#1introduction)
+* [2. Circuit électronique](#2circuit-électronique)
+* [3. PCB SHIELD](#3pcbshield)
+* [4. Code Arduino](#4code-arduino)
+* [5. Application Bluetooth](#5application-bluetooth)
+* [6. Banc de test](#6banc-de-test)
+* [7. Datasheet](#7datasheet)
+* [8. Conclusion](#8conclusion)
 
 ## 1. Introduction
 
