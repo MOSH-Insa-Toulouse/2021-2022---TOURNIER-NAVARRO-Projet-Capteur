@@ -44,7 +44,34 @@ La réalisation d'un PCB se divise en 3 étapes : Le schématique, l'édition du
 
 3.1) Schématique
 
-La base du circuit électronique repose sur la création du schématique. Les symboles et empreintes du module arduino UNO, des résistances et des capacités sont disponibles dans les librairies installées sur KiCad. Cependant, il nous a fallu créer une librairie d'empreinte pour l'ensemble des composants.
+La base du circuit électronique repose sur la création du schématique. Les symboles et empreintes du module arduino UNO, des résistances et des capacités sont disponibles dans les librairies installées sur KiCad. Cependant, il nous a fallu créer une librairie d'empreinte pour l'ensemble des autres composants. Les empreintes devaient respecter les pins physiques pour que le routage se passe correctement par la suite.
 
+- Ecran OLED
 
+![Empreinte OLED](https://user-images.githubusercontent.com/73793387/162723582-0cb8a084-8cba-4ffc-80e5-ccca75fc2ec3.PNG)
+![Empreintes OLED](https://user-images.githubusercontent.com/73793387/162723694-a676528d-760b-440e-8d62-585c586b7770.PNG)
+
+- Amplificateur LTC
+
+![Empreintes LTC](https://user-images.githubusercontent.com/73793387/162723747-83117335-a6bb-4ccd-a510-e58103e1ffe7.PNG)
+
+![Empreinte LTC](https://user-images.githubusercontent.com/73793387/162723755-c744e28a-7e69-4a47-ba8a-4b794595440a.PNG)
+
+- Module Bluetooth
+
+![Empreinte Bluetooth](https://user-images.githubusercontent.com/73793387/162723837-68ef546b-b78e-4124-99a9-f8c2acfe4e2e.PNG)
+
+![Empreintes Bluetooth](https://user-images.githubusercontent.com/73793387/162723866-dba24d46-015b-4934-8cfa-6d678e749c9a.PNG)
+
+- Encodeur rotatoire
+
+![Empreinte encodeur](https://user-images.githubusercontent.com/73793387/162724427-df1aeda7-7832-4b6b-aee1-ce54f001ea05.PNG)
+
+![Empreintes encodeur](https://user-images.githubusercontent.com/73793387/162724461-75a6bb98-7e36-46ff-b4c4-67c177bf6051.PNG)
+
+- Schématique entière
+
+![Schématique](https://user-images.githubusercontent.com/73793387/162724536-20c92845-da14-4c31-a23f-b9c888aab8ba.PNG)
+
+3.2) PCB
 
