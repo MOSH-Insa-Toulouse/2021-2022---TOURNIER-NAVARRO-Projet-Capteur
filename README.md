@@ -81,3 +81,10 @@ Après avoir associé chaque empreinte à son symbole pour tous les composants, 
 ![PCB](https://user-images.githubusercontent.com/73793387/162770627-a9380fcd-636d-430d-b1c6-7890eb1e7de1.PNG)
 
 
+3.3) Visualisation 3D
+
+Afin de vérifier si nos composants peuvent bien s'implémenter sur le SHIELD, nous pouvons utiliser la visualisation 3D pour voir s'ils ne se genent pas entre eux ou s'il n'empietent pas sur les pins arduino.
+Les empreintes 3D pour les résistances et capacité sont disponible sur KiCaD. Il faut aller chercher en ligne les empreintes 3D pour le module blutetooth, l'encodeur et l'écran OLED.
+
+![Visu 3D](https://user-images.githubusercontent.com/73793387/162773301-bb5bc7aa-99f0-43fd-9bd5-5bf0034fdfc4.PNG)
+
