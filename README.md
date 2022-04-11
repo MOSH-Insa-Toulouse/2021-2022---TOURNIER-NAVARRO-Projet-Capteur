@@ -9,7 +9,7 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 ## Sommaire
 
-* [1. Introduction](#1introduction)
+* [1. Introduction](#1.-introduction)
 * [2. Circuit électronique](#2circuit-électronique)
 * [3. PCB SHIELD](#3pcbshield)
 * [4. Code Arduino](#4code-arduino)
