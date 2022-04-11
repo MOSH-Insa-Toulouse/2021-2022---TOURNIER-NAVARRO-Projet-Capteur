@@ -14,6 +14,7 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 * [3. KiCad](#3-kicad)
   * [3.1. Schématique](#31-schématique)
   * [3.2. Edition du PCB](#32-edition-du-pcb)
+  * [3.3. Visualisation 3D](#33-visualisation-3d)
 * [4. Code Arduino](#4-code-arduino)
 * [5. Application Bluetooth](#5-application-bluetooth)
 * [6. Banc de test](#6-banc-de-test)
@@ -75,7 +76,7 @@ La base du circuit électronique repose sur la création du schématique. Les sy
 
 ![Schématique](https://user-images.githubusercontent.com/73793387/162724536-20c92845-da14-4c31-a23f-b9c888aab8ba.PNG)
 
-3.2) Edition du PCB
+### 3.2. Edition du PCB
 
 Après avoir associé chaque empreinte à son symbole pour tous les composants, nous avons édité le circuit imprimé. La partie la plus complexe consiste à répartir les composants sur le PCB et router correctement les connexions entre chaque pin.
 
@@ -83,7 +84,7 @@ Après avoir associé chaque empreinte à son symbole pour tous les composants, 
 ![PCB](https://user-images.githubusercontent.com/73793387/162770627-a9380fcd-636d-430d-b1c6-7890eb1e7de1.PNG)
 
 
-3.3) Visualisation 3D
+### 3.3. Visualisation 3D
 
 Afin de vérifier si nos composants peuvent bien s'implémenter sur le SHIELD, nous pouvons utiliser la visualisation 3D pour voir s'ils ne se genent pas entre eux ou s'il n'empietent pas sur les pins arduino.
 Les empreintes 3D pour les résistances et capacité sont disponible sur KiCaD. Il faut aller chercher en ligne les empreintes 3D pour le module blutetooth, l'encodeur et l'écran OLED.
