@@ -7,18 +7,18 @@ Pour cela, nous avons réalisé un PCB Shield grace au logiciel Kicad. Il regrou
 
 Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et un banc de test associé au capteur afin d'en faire une analyse critique.
 
-# Sommaire
+## Sommaire
 
-- [1. Introduction] 
-- [2. Circuit électronique]
-3) PCB SHIELD
-4) Code Arduino
-5) Application Bluetooth
-6) Banc de test
-7) Datasheet
-8) Conclusion
+* [1. Introduction] (#1Introduction)
+* [2. Circuit électronique] (#2Circuit-électronique)
+* [3. PCB SHIELD] (#3PCB-SHIELD)
+* [4. Code Arduino] (#4Code-Arduino)
+* [5. Application Bluetooth] (#5Application-Bluetooth)
+* [6. Banc de test] (#6Banc-de-test)
+* [7. Datasheet] (#7Datasheet)
+* [8. Conclusion] (#8Conclusion)
 
-# 1) Introduction
+## 1. Introduction
 
 Le capteur de déformation que nous avons crée ne représente qu'un outil permettant de récolter des données. Il est indispensable d'y ajouter une électronique et une programmation afin de pouvoir les traiter et en tirer une conclusion. Ce projet se divise donc en plusieurs étapes afin de pouvoir récupérer et analyser au mieux ces valeurs de résistances délivrées.
 
@@ -34,10 +34,10 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 
 - Datasheet : 
 
-# 2) Circuit électronique
+## 2. Circuit électronique
 
 
-# 3) PCB
+## 3. PCB
 
 Nous avons utilisé le logiciel KiCad qui permet de réaliser des schémas électroniques et des circuits imprimés. Nous avons réalisé un SHIELD où l'ensemble des composants sera déposé dessus. Il sera ensuite pluggé directement sur l'arduino. 
 La réalisation d'un PCB se divise en 3 étapes : Le schématique, l'édition du PCB et sa visualisation 3D
