@@ -39,4 +39,9 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 
 # 3) PCB
 
+Nous avons utilisé le logiciel KiCad qui permet de réaliser des schémas électroniques et des circuits imprimés. La réalisation d'un PCB se divise en 3 étapes : Le schématique, l'édition du PCB et sa visualisation 3D
+
+3.1) Schématique
+
+
 
