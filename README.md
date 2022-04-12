@@ -154,6 +154,13 @@ Les empreintes 3D pour les résistances et capacité sont disponible sur KiCaD. 
 
 ## 4. Code Arduino
 
+### 4.1 Environnement utilisé
+Notre projet capteur s'est construit sur la base d'une plateforme Arduino UNO (voir image ci dessous).
+![ARDUINO_UNO_DIP_01](https://user-images.githubusercontent.com/98759075/162998029-1084ec7d-8367-493c-a8bf-e0aa31f82537.png)
+Notre code a été écris sous la version Arduino IDE 1.8.19. 
+
+### 4.2 Librairies utilisées
+
 ## 5. Application Bluetooth
 
 ## 6. Banc de test
