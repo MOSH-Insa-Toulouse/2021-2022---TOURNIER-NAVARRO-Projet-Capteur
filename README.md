@@ -177,13 +177,13 @@ Notre programme arduino nous permet de récupérer la valeur de la tension de no
 - Pour terminer nous avons créé une boucle "loop" qui affiche les différentes données en fonction de là où se trouve le curseur avec différents "if" grâce aux fonctions créées en amont. 
 
 ## 5. Application Bluetooth
-L'application Android a été codé sur le site internet MIT App Inventor. Ce site internet permet de manière intuitive de créer des applications mobiles simples téléchargeable seulement via des téléphone Android en scannant un QR code généré par le site. 
-Cette application va nous permettre d'afficher sur un téléphone mobile les valeurs de la tension et de la résistance délivrée par le capteur graphène en temps réel, ainsi qu'afficher une courbe représentant l'évolution de la tension reçue en fonction de temps (en pliant plus ou moins le capteur nous pourrons observer en direct l'évolution de la tensions dans le temps).
+L'application Android a été codé sur le site internet MIT App Inventor. Ce site internet permet de manière intuitive de créer des applications mobiles simples téléchargeables seulement via des téléphones Androids en scannant un QR code généré par le site. 
+Cette application va nous permettre d'afficher sur un téléphone mobile les valeurs de la tension et de la résistance délivrées par le capteur graphène en temps réel, ainsi qu'afficher une courbe représentant l'évolution de la tension reçue en fonction de temps (en pliant plus ou moins le capteur nous pourrons observer en direct l'évolution de la tensions dans le temps).
 
 Notre application est composée : 
 - d'un bouton bluetooth permettant à l'utilisateur de se connecter au module blutooth de notre carte Arduino
 - d'un canva qui permet d'afficher la courbe de la tension en fonction du temps 
-- deux encadrés texte qui affichent respectivement la valeur de la tensions et de la résistance
+- deux encadrés textes qui affichent respectivement la valeur de la tensions et de la résistance
 
 Voilà un apperçu de la face avant de notre application : 
 <img width="269" alt="face_avant_appli" src="https://user-images.githubusercontent.com/98759075/163006441-ea912822-7175-4453-a1c5-cdfee33f21ea.PNG">
