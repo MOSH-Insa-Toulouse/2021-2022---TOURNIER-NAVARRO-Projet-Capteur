@@ -20,6 +20,8 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
   * [3.2. Edition du PCB](#32-edition-du-pcb)
   * [3.3. Visualisation 3D](#33-visualisation-3d)
 * [4. Code Arduino](#4-code-arduino)
+  * [4.1. Environnement utilisé](#41-environnement-utilisé)
+  * [4.2. Librairies utilisées](#4é-librairies-utilisées)
 * [5. Application Bluetooth](#5-application-bluetooth)
 * [6. Banc de test](#6-banc-de-test)
 * [7. Datasheet](#7-datasheet)
