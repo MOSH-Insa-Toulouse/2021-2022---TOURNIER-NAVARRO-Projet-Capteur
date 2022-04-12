@@ -19,9 +19,10 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
   * [3.1. Schématique](#31-schématique)
   * [3.2. Edition du PCB](#32-edition-du-pcb)
   * [3.3. Visualisation 3D](#33-visualisation-3d)
-* [4. Code Arduino](#4-code-arduino)
+* [4. Arduino](#4-arduino)
   * [4.1. Environnement utilisé](#41-environnement-utilisé)
-  * [4.2. Librairies utilisées](#4é-librairies-utilisées)
+  * [4.2. Librairies utilisées](#42-librairies-utilisées)
+  * [4.2. Code Arduino](#43-librairies-utilisées)
 * [5. Application Bluetooth](#5-application-bluetooth)
 * [6. Banc de test](#6-banc-de-test)
 * [7. Datasheet](#7-datasheet)
@@ -154,7 +155,7 @@ Les empreintes 3D pour les résistances et capacité sont disponible sur KiCaD. 
 
 ![Visu 3D](https://user-images.githubusercontent.com/73793387/162773301-bb5bc7aa-99f0-43fd-9bd5-5bf0034fdfc4.PNG)
 
-## 4. Code Arduino
+## 4. Arduino
 
 ### 4.1 Environnement utilisé
 Notre projet capteur s'est construit sur la base d'une plateforme Arduino UNO (voir image ci dessous).
@@ -162,6 +163,18 @@ Notre projet capteur s'est construit sur la base d'une plateforme Arduino UNO (v
 Notre code a été écris sous la version Arduino IDE 1.8.19. 
 
 ### 4.2 Librairies utilisées
+Nous avons utilisé la librairie "SoftwareSerial.h" pour le module bluetooth ainsi que la librairie "Adafruit_SSD1306.h" pour le module OLED.
+
+### 4.3 Code Arduino
+Notre programme arduino nous permet de récupérer la valeur de la tension de notre capteur, calculer la résistance qui en résulte, l'afficher sur l'écran OLED et envoyer ces données via bluetooth sur notre application Android. Nous avons également ajouté un encodeur rotatoire qui nous permet de nous balade sur un menu affiché à l'écran OLED (3 options possibles: la valeur de la tension, la valeur de la résistance et un message surprise). 
+
+-Nous définissons tout d'abord des variables qui nous serviront à initialiser les paramètres du bluetooth, de l'encodeur rotatoire (et bouton poussoir) et de l'écran OLED (appel des librairies, définitions des pins arduinos utilisés pour les différents modules etc...) ainsi que des variables qui nous serviront à calculer la résistance de notre capteur. 
+
+-Ensuite nous avons créer une fonction setup qui initialise les paramètres des différents modules.
+
+-Nous avons également créer une fonction pour récupérer la valeur de la tension du capteur, une fonction pour calculer la valeur de la résistance, une fonction debouncing de l'encodeur rotatoire pour pouvoir se balader de manière régulière sur le menu, une fonction qui permet de sélectionner un menu en fonction de la position du curseur, des fonctions affichant le menu principal et déroulant (on surligne la ligne sur laquelle se trouve le curseur), et enfin une fonction permettant d'afficher les sous-menus.
+
+-Pour terminer nous avons créé une boucle "loop" qui affiche les différentes données en fonction de là où se trouve le curseur avec différents "if" grâce aux fonctions créées en amont. 
 
 ## 5. Application Bluetooth
 
