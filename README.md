@@ -11,6 +11,10 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 * [1. Introduction](#1-introduction)
 * [2. Circuit électronique](#2-circuit-électronique)
+  * [2.1. Schéma du circuit](#21-schéma-du-circuit)
+  * [2.2. Réponse transitoire et fréquentielle](#22-réponse-transitoire-et-fréquentielle)
+  * [2.3. Filtres](#23-filtres)
+  * [2.4. Modélisation du capteur](#24-modélisation-du-capteur)
 * [3. KiCad](#3-kicad)
   * [3.1. Schématique](#31-schématique)
   * [3.2. Edition du PCB](#32-edition-du-pcb)
