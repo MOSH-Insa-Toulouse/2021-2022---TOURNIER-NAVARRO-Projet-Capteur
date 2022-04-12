@@ -168,15 +168,25 @@ Nous avons utilisé la librairie "SoftwareSerial.h" pour le module bluetooth ain
 ### 4.3 Code Arduino
 Notre programme arduino nous permet de récupérer la valeur de la tension de notre capteur, calculer la résistance qui en résulte, l'afficher sur l'écran OLED et envoyer ces données via bluetooth sur notre application Android. Nous avons également ajouté un encodeur rotatoire qui nous permet de nous balade sur un menu affiché à l'écran OLED (3 options possibles: la valeur de la tension, la valeur de la résistance et un message surprise). 
 
--Nous définissons tout d'abord des variables qui nous serviront à initialiser les paramètres du bluetooth, de l'encodeur rotatoire (et bouton poussoir) et de l'écran OLED (appel des librairies, définitions des pins arduinos utilisés pour les différents modules etc...) ainsi que des variables qui nous serviront à calculer la résistance de notre capteur. 
+- Nous définissons tout d'abord des variables qui nous serviront à initialiser les paramètres du bluetooth, de l'encodeur rotatoire (et bouton poussoir) et de l'écran OLED (appel des librairies, définitions des pins arduinos utilisés pour les différents modules etc...) ainsi que des variables qui nous serviront à calculer la résistance de notre capteur. 
 
--Ensuite nous avons créer une fonction setup qui initialise les paramètres des différents modules.
+- Ensuite nous avons créer une fonction setup qui initialise les paramètres des différents modules.
 
--Nous avons également créer une fonction pour récupérer la valeur de la tension du capteur, une fonction pour calculer la valeur de la résistance, une fonction debouncing de l'encodeur rotatoire pour pouvoir se balader de manière régulière sur le menu, une fonction qui permet de sélectionner un menu en fonction de la position du curseur, des fonctions affichant le menu principal et déroulant (on surligne la ligne sur laquelle se trouve le curseur), et enfin une fonction permettant d'afficher les sous-menus.
+- Nous avons également créer une fonction pour récupérer la valeur de la tension du capteur, une fonction pour calculer la valeur de la résistance, une fonction debouncing de l'encodeur rotatoire pour pouvoir se balader de manière régulière sur le menu, une fonction qui permet de sélectionner un menu en fonction de la position du curseur, des fonctions affichant le menu principal et déroulant (on surligne la ligne sur laquelle se trouve le curseur), et enfin une fonction permettant d'afficher les sous-menus.
 
--Pour terminer nous avons créé une boucle "loop" qui affiche les différentes données en fonction de là où se trouve le curseur avec différents "if" grâce aux fonctions créées en amont. 
+- Pour terminer nous avons créé une boucle "loop" qui affiche les différentes données en fonction de là où se trouve le curseur avec différents "if" grâce aux fonctions créées en amont. 
 
 ## 5. Application Bluetooth
+L'application Android a été codé sur le site internet MIT App Inventor. Ce site internet permet de manière intuitive de créer des applications mobiles simples téléchargeable seulement via des téléphone Android en scannant un QR code généré par le site. 
+Cette application va nous permettre d'afficher sur un téléphone mobile les valeurs de la tension et de la résistance délivrée par le capteur graphène en temps réel, ainsi qu'afficher une courbe représentant l'évolution de la tension reçue en fonction de temps (en pliant plus ou moins le capteur nous pourrons observer en direct l'évolution de la tensions dans le temps).
+
+Notre application est composée : 
+- d'un bouton bluetooth permettant à l'utilisateur de se connecter au module blutooth de notre carte Arduino
+- d'un canva qui permet d'afficher la courbe de la tension en fonction du temps 
+- deux encadrés texte qui affichent respectivement la valeur de la tensions et de la résistance
+
+Voilà un apperçu de la face avant de notre application : 
+<img width="269" alt="face_avant_appli" src="https://user-images.githubusercontent.com/98759075/163006441-ea912822-7175-4453-a1c5-cdfee33f21ea.PNG">
 
 ## 6. Banc de test
 
