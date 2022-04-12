@@ -25,7 +25,7 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 Le capteur de déformation que nous avons crée ne représente qu'un outil permettant de récolter des données. Il est indispensable d'y ajouter une électronique et une programmation afin de pouvoir les traiter et en tirer une conclusion. Ce projet se divise donc en plusieurs étapes afin de pouvoir récupérer et analyser au mieux ces valeurs de résistances délivrées.
 
-- Circuit électronique : Le signal délivré par le capteur ne vaut que quelques µV. Nous avons dimensionner un circuit à l'aide du logiciel LTspice qui permet d'amplifier et de lisser le signal à partir d'amplificateur et de filtre. En sortie, nous obtenons un signal compris entre 0 et 5V.
+- Circuit électronique : Le signal délivré par le capteur est un courant très faible. Nous avons dimensionner un circuit à l'aide du logiciel LTspice qui permet d'amplifier et de lisser le signal à partir d'amplificateur et de filtre. En sortie, nous obtenons un signal compris entre 0 et 5V.
 
 - PCB SHIELD : Nous avons fabriqué une carte électronique afin de pouvoir y regrouper tous les composants permettant de traiter les données du capteur.
 
@@ -38,6 +38,20 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 - Datasheet : 
 
 ## 2. Circuit électronique
+
+Dans le cas du capteur de déformation que nous voulons créer, le signal délivré est de courant très faible : de l'ordre de 100 nA. Cela pose un problème car le microcontroleur ne peut pas mesurer directement ce courant à cause d'une impédance d'entrée trop élevée.
+
+La solution mise en place afin de palier ce problème est d'utiliser un amplificateur transimpédance suivi d'un étage amplificateur inverseur. 
+
+Plusieurs filtres sont aussi indidspensables afin de pouvoir extraire l'information utile du capteur : Un filtre capteur afin de limiter les bruits en courant (f1=10Hz) , un filtre passe bas pour les bruits du secteur à 50Hz (f2 = quelques Hz) et un filtre en sortie pour l'échantillonage. Notre Arduino possède une fréquence d'échantillonage de 10kHz environ donc notre signal sera filtré au maximum à 5kHz pour respecter le critère de Shannon.
+
+Schéma suggéré 
+
+
+![Schéma LTSpice](https://user-images.githubusercontent.com/73793387/162968000-c152d43e-fd4d-486b-bd4a-205440b73728.PNG)
+
+
+
 
 
 ## 3. Kicad
