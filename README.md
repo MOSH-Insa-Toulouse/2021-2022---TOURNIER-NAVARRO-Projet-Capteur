@@ -86,7 +86,7 @@ On obtient à -3dB, une fréquence de coupure de 16Hz ce qui fonctionne plutot b
 
 On obtient à -3dB, une fréquence de coupure compriise entre 1 et 2Hz ce qui permet de couper le bruit induit par le secteur 50Hz.
 
--Filtre de sortie (R6 associée à C2)
+- Filtre de sortie (R6 associée à C2)
 
 ![f3](https://user-images.githubusercontent.com/73793387/162984476-0ce94bae-8616-4ca0-911c-746682088615.PNG)
 
