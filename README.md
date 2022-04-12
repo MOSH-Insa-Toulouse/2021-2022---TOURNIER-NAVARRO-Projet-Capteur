@@ -88,6 +88,8 @@ On obtient à -3dB, une fréquence de coupure compriise entre 1 et 2Hz ce qui pe
 
 On obtient à -3dB, une fréquence de coupure de 1,6kHz ce qui fonctionne bien pour l'échantillonage de l'ARDUINO.
 
+### 2.4 Simulation du capteur
+
 
 
 ## 3. Kicad
