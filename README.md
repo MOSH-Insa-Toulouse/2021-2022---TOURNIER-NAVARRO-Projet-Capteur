@@ -22,7 +22,7 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 * [4. Arduino](#4-arduino)
   * [4.1. Environnement utilisé](#41-environnement-utilisé)
   * [4.2. Librairies utilisées](#42-librairies-utilisées)
-  * [4.2. Code Arduino](#43-librairies-utilisées)
+  * [4.3. Code Arduino](#43-code-arduino)
 * [5. Application Bluetooth](#5-application-bluetooth)
 * [6. Banc de test](#6-banc-de-test)
 * [7. Datasheet](#7-datasheet)
