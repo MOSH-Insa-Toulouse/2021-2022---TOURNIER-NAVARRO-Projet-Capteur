@@ -1,0 +1,20 @@
+Circuit: * C:\Users\vivie\Desktop\Cours INSA\2021-2022\2ème semestre\Capteur\Elec LTspice Capteur\Elec LTspice Capteur\TP signal analogique 4A.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Apr 15 17:34:06 2022
+Total elapsed time: 0.075 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 22
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 13
+fillins = 6
+solver = Normal
+Matrix Compiler1:      37 opcodes
+Matrix Compiler2: 1.08 KB object code size
