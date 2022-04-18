@@ -186,7 +186,10 @@ Notre application est composée :
 - deux encadrés textes qui affichent respectivement la valeur de la tensions et de la résistance
 
 Voilà un apperçu de la face avant de notre application : 
-<img width="269" alt="face_avant_appli" src="https://user-images.githubusercontent.com/98759075/163006441-ea912822-7175-4453-a1c5-cdfee33f21ea.PNG">
+
+![Interface Application](https://user-images.githubusercontent.com/73793387/163821493-6f21c358-d7f4-4104-bc9f-67fea80dba5b.PNG)
+
+
 
 ## 6. Banc de test
 
