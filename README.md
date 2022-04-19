@@ -52,7 +52,7 @@ Dans le cas du capteur de déformation que nous voulons créer, le signal déliv
 
 La solution mise en place afin de palier ce problème est d'utiliser un amplificateur transimpédance suivi d'un étage amplificateur inverseur. 
 
-Plusieurs filtres sont aussi indidspensables afin de pouvoir extraire l'information utile du capteur : Un filtre capteur afin de limiter les bruits en courant (f1=10Hz) , un filtre passe bas pour les bruits du secteur à 50Hz (f2 = quelques Hz) et un filtre en sortie pour l'échantillonage. Notre Arduino possède une fréquence d'échantillonage de 10kHz environ donc notre signal sera filtré au maximum à 5kHz pour respecter le critère de Shannon.
+Plusieurs filtres sont aussi indispensables afin de pouvoir extraire l'information utile du capteur : Un filtre capteur afin de limiter les bruits en courant (f1=10Hz) , un filtre passe bas pour les bruits du secteur à 50Hz (f2 = quelques Hz) et un filtre en sortie pour l'échantillonage. Notre Arduino possède une fréquence d'échantillonage de 10kHz environ donc notre signal sera filtré au maximum à 5kHz pour respecter le critère de Shannon.
 
 Schéma suggéré 
 
