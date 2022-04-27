@@ -205,10 +205,16 @@ Ce banc de test se base sur une pièce 3D imprimée par les élèves des années
 
 ![image](https://user-images.githubusercontent.com/73793387/165544739-e7c285a7-01f1-4d24-845f-f4c96e400fec.png)
 
-Pour plus de détails sur le protocole et la manière de calculer la déformation induite par ce banc de test voir la datasheet => 
+Pour plus de détails sur le protocole et la manière de calculer la déformation induite par ce banc de test voir la datasheet ()
 
 ### 6.2. Ballons de sport
 
+Dans le but de valider le modèle du capteur, nous avons relevés les valeurs de résistance du capteur sur des rayons de courbure connues. L'idée que nous avons eut est d'utiliser des balles de sport dont les dimensions sont conventionnées.
+
+![image](https://user-images.githubusercontent.com/73793387/165547250-42c90080-7b1c-4f2e-9f35-1c39cb0b178e.png)
+
+
+On fait ici une sorte de cheminement inverse en essayant de retrouver le rayon de courbure à partir de la valeur de la résistance et vérifier si notre capteur est bien fiable. Tout le protocole est disponible dans la datasheet du capteur ()
 
 ## 7. Datasheet
 
