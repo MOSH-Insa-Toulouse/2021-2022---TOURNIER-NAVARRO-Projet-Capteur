@@ -25,6 +25,8 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
   * [4.3. Code Arduino](#43-code-arduino)
 * [5. Application Bluetooth](#5-application-bluetooth)
 * [6. Banc de test](#6-banc-de-test)
+  * [6.1. Pièce 3D](#61-pièce-3d) 
+  * [6.2. Ballons de sport](#62-ballons-de-sport)
 * [7. Datasheet](#7-datasheet)
 * [8. Conclusion](#8-conclusion)
 
@@ -192,6 +194,21 @@ Voilà un apperçu de la face avant de notre application :
 
 
 ## 6. Banc de test
+
+Le banc de test est la partie du projet qui permet de caractériser notre capteur. Le principe est de créer un protocole expérimental afin de tester la réponse du capteur en fonction des contraintes qu'on va lui appliquer.
+
+Nous avons réalisé 2 bancs de test à partir d'une pièce 3D et de ballons de sport.
+
+### 6.1. Pièce 3D
+
+Ce banc de test se base sur une pièce 3D imprimée par les élèves des années antérieures. Elle est composée de plusieurs demi-cercles de rayons différents afin de tester le capteur en flexion et en compression.
+
+![image](https://user-images.githubusercontent.com/73793387/165544739-e7c285a7-01f1-4d24-845f-f4c96e400fec.png)
+
+Pour plus de détails sur le protocole et la manière de calculer la déformation induite par ce banc de test voir la datasheet => 
+
+### 6.2. Ballons de sport
+
 
 ## 7. Datasheet
 
