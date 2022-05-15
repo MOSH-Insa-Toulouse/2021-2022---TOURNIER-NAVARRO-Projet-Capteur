@@ -34,7 +34,7 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
 
 Le capteur de déformation que nous avons crée ne représente qu'un outil permettant de récolter des données. Il est indispensable d'y ajouter une électronique et une programmation afin de pouvoir les traiter et en tirer une conclusion. Ce projet se divise donc en plusieurs étapes afin de pouvoir récupérer et analyser au mieux ces valeurs de résistances délivrées.
 
-- Circuit électronique : Le signal délivré par le capteur est un courant très faible. Nous avons dimensionner un circuit à l'aide du logiciel LTspice qui permet d'amplifier et de lisser le signal à partir d'amplificateur et de filtre. En sortie, nous obtenons un signal compris entre 0 et 5V.
+- [Circuit électronique](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/LTspice) : Le signal délivré par le capteur est un courant très faible. Nous avons dimensionner un circuit à l'aide du logiciel LTspice qui permet d'amplifier et de lisser le signal à partir d'amplificateur et de filtre. En sortie, nous obtenons un signal compris entre 0 et 5V.
 
 - [PCB SHIELD](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/KiCad) : Nous avons fabriqué une carte électronique afin de pouvoir y regrouper tous les composants permettant de traiter les données du capteur.
 
