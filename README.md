@@ -28,7 +28,6 @@ Ce dispositif pourra nous permettre par la suite de réaliser une datasheet et u
   * [6.1. Pièce 3D](#61-pièce-3d) 
   * [6.2. Ballons de sport](#62-ballons-de-sport)
 * [7. Datasheet](#7-datasheet)
-* [8. Conclusion](#8-conclusion)
 
 ## 1. Introduction
 
@@ -219,5 +218,3 @@ On fait ici une sorte de cheminement inverse en essayant de retrouver le rayon d
 ## 7. Datasheet
 
 A l'aide des bancs de test réalisés, nous avons pu caractériser notre capteur en utilisant un crayon HB. Toutes les données sont à retrouver dans la [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/Datasheet%20capteur%20graphite.docx)
-
-## 8. Conclusion
