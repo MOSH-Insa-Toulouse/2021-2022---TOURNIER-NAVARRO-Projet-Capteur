@@ -38,7 +38,7 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 
 - PCB SHIELD : Nous avons fabriqué une carte électronique afin de pouvoir y regrouper tous les composants permettant de traiter les données du capteur.
 
-- Code Arduino : Ce programme nous permet de controler les différents composants présents sur notre SHIELD et de transformer notre valeur de tension en une valeur de résistance. Cette valeur sera affichée sur un écran OLED dont ces menus seront controlées par un encodeur rotatoire. A partir d'un module Bluetooth, nous pourrons ensuite envoyer cette donnée sur une application.
+- [Code Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Arduino) : Ce programme nous permet de controler les différents composants présents sur notre SHIELD et de transformer notre valeur de tension en une valeur de résistance. Cette valeur sera affichée sur un écran OLED dont ces menus seront controlées par un encodeur rotatoire. A partir d'un module Bluetooth, nous pourrons ensuite envoyer cette donnée sur une application.
 
 - [Application](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Application) : A partir du site MIT, nous avons codé une application Android qui affiche un graphique de l'évolution de la résistance du capteur en fonction du temps
 
