@@ -42,9 +42,9 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 
 - [Application](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Application) : A partir du site MIT, nous avons codé une application Android qui affiche un graphique de l'évolution de la résistance du capteur en fonction du temps
 
-- Banc de test : 
+- [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/README.md#6-banc-de-test) : Dans le but de caractériser notre capter, notre banc de test se compose d'une pièces 3D et de ballons de sport avec des rayons de courbure différents.
 
-- Datasheet : 
+- [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/Datasheet%20capteur%20graphite.docx) : Document reprenant l'ensemble des caractéristiques de notre capteur de contraintes 
 
 ## 2. Circuit électronique
 
