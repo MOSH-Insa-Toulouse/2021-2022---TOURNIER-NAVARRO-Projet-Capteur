@@ -40,11 +40,11 @@ Le capteur de déformation que nous avons crée ne représente qu'un outil perme
 
 - [Code Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Arduino) : Ce programme nous permet de controler les différents composants présents sur notre SHIELD et de transformer notre valeur de tension en une valeur de résistance. Cette valeur sera affichée sur un écran OLED dont ces menus seront controlées par un encodeur rotatoire. A partir d'un module Bluetooth, nous pourrons ensuite envoyer cette donnée sur une application.
 
-- [Application](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Application) : A partir du site MIT, nous avons codé une application Android qui affiche un graphique de l'évolution de la résistance du capteur en fonction du temps
+- [Application](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/tree/main/Application) : A partir du site MIT, nous avons codé une application Android qui affiche un graphique de l'évolution de la résistance du capteur en fonction du temps.
 
 - [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/README.md#6-banc-de-test) : Dans le but de caractériser notre capter, notre banc de test se compose d'une pièces 3D et de ballons de sport avec des rayons de courbure différents.
 
-- [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/Datasheet%20capteur%20graphite.docx) : Document reprenant l'ensemble des caractéristiques de notre capteur de contraintes 
+- [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/Datasheet%20capteur%20graphite.docx) : Document reprenant l'ensemble des caractéristiques de notre capteur de déformation. 
 
 ## 2. Circuit électronique
 
