@@ -218,4 +218,5 @@ On fait ici une sorte de cheminement inverse en essayant de retrouver le rayon d
 
 ## 7. Datasheet
 
+A l'aide des bancs de test réalisés, nous avons pu caractériser notre capteur en utilisant un crayon HB. 
 ## 8. Conclusion
