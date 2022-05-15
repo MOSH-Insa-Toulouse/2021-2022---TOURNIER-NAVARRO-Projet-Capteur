@@ -214,7 +214,7 @@ Dans le but de valider le modèle du capteur, nous avons relevés les valeurs de
 ![image](https://user-images.githubusercontent.com/73793387/165547250-42c90080-7b1c-4f2e-9f35-1c39cb0b178e.png)
 
 
-On fait ici une sorte de cheminement inverse en essayant de retrouver le rayon de courbure à partir de la valeur de la résistance et vérifier si notre capteur est bien fiable. Tout le protocole est disponible dans la datasheet du capteur ()
+On fait ici une sorte de cheminement inverse en essayant de retrouver le rayon de courbure à partir de la valeur de la résistance et vérifier si notre capteur est bien fiable. Tout le protocole est disponible dans la datasheet du capteur [datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022---TOURNIER-NAVARRO-Projet-Capteur/blob/main/Datasheet%20capteur%20graphite.docx)
 
 ## 7. Datasheet
 
